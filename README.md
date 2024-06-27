@@ -1,2 +1,2 @@
 # React_Aprendendo
- Projeto pessoal para praticar react
+ Projeto pessoal para praticar react :D
