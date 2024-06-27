@@ -1,0 +1,44 @@
+section.secao{
+    display: flex;
+    gap: 1rem;
+    border-bottom: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    justify-content: space-evenly;
+}
+
+div.containerInfo{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+div.info{
+    margin-top: 20px;
+    border: 4px outset rgb(217, 178, 255);
+    box-shadow: 0 0 10px rgb(159, 100, 175);
+    background-color: rgb(249, 243, 255);
+    width: 300px;
+    padding: 1.3rem;
+    transition: transform 0.2s linear;
+}
+div.info:hover{
+    transform: scale(1.02);
+}
+
+button.botao{
+    color: rgb(101, 51, 115);
+    border: none;
+    background-color: transparent;
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    transform: scale(2);
+    transition: transform 0.1s linear;
+}
+button.botao:hover{
+    transform: scale(2.5);
+}

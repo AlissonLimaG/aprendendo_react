@@ -1,0 +1,26 @@
+div.miniCard{
+    display: inline-block;
+    background-color: rgb(242, 242, 242);
+    border: 4px solid rgb(244, 244, 244);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(214, 214, 214);
+    width: clamp(110px,25vw,180px);
+    word-wrap: break-word;
+    transition: transform 0.1s linear;
+}
+
+div.miniCard:hover{
+    transform: translateY(-7px);
+}
+
+div.miniImage{
+    height: clamp(150px,23vw,160px);
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+
+p.cardTxt{
+    font-size: clamp(0.8rem,1vw,1rem);
+    padding: 15px 10px 10px 10px;
+}

@@ -1,0 +1,36 @@
+header.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 1px 10px rgb(186, 185, 185);
+    padding: 0.5rem 1rem;
+    background-color: rgb(217, 178, 255);
+}
+
+h1.title{
+    font-family:monospace;
+    font-weight: 300;
+    color: rgb(89, 76, 117);
+}
+
+select#paginas{
+    font-family: monospace;
+    outline: none;
+    height: 30px;
+    border: 1px solid rgb(89, 76, 117);
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgb(24, 24, 24);
+    transition: transform 0.1s linear;
+}
+
+select#paginas:hover{
+    transform: scale(1.02);
+}
+
+select#paginas option{
+    font-family: monospace;
+    background-color: rgb(217, 178, 255);
+    border-radius: 10px;
+}
+

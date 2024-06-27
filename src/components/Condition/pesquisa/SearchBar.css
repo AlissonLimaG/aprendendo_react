@@ -1,0 +1,32 @@
+div.searchContainer{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+input.searchInput{
+    margin-top: 1rem;
+    text-align: center;
+    padding: 0.25rem;
+    border-radius: 20px;
+    border: 2px solid rgb(135, 122, 163);
+    background-color: rgb(227, 204, 250);
+    outline: none;
+    font-family: monospace;
+    font-size: 12px;
+    color: rgb(85, 70, 123);
+}
+
+div.divCheckbox{
+    margin-top: 4px;
+}
+
+div.divCheckbox label{
+    font-family: monospace;
+    color: rgb(74, 65, 95);
+}
+
+input[type='checkbox'].checkFilter{
+    height:10px;
+    margin-right: 2px;
+}

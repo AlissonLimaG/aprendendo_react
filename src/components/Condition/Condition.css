@@ -1,0 +1,11 @@
+div.containerCdt{
+    display: flex;
+    flex-direction: column;
+}
+div.containerList{
+    padding: 2rem 0 0 0rem;
+    display: flex;
+    gap: 1.7rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}    

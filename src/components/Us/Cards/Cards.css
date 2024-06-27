@@ -1,0 +1,22 @@
+div.card{
+    cursor:pointer;
+    border: 1px solid #ffd700;
+    box-shadow: 0 0 20px #ffd700;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(89, 76, 117);
+    height: 200px;
+    width: 20%;
+    max-width: 150px;
+    transition: transform 0.1s linear;
+}
+div.card:hover{
+    transform: translateY(-10px)
+}
+
+div.card p{
+    font-size: clamp(2rem,10vw,5rem);
+    color: #ffec80;
+}
